@@ -34,3 +34,7 @@ jobs:
           artifact-name: EmpowerHelloWorldV1
           version: 1.0.1
           build-number: ${{ github.run_number}}
+          owner: ${{ github.repository_owner}}
+          sonarColudProjectName: sriramgundaorg_sriram_dm_demo
+          secrets:
+            sonarCloudToken: ${{ secrets.SONAR_KEY }}
