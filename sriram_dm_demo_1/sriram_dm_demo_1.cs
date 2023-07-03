@@ -18,6 +18,7 @@ namespace sriram_dm_demo_1
 		public void Run(IEngine engine)
 		{
             engine.GenerateInformation("Sriram Testing priject");
+	engine.GenerateInformation("CICD implemented");		
         }
 	}
 }
