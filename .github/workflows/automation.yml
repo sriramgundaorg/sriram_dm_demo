@@ -55,7 +55,7 @@ jobs:
           # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
           api-key: ${{ secrets.DM_TEST_THREE }}
           # solution-path: ./${{ steps.findSlnFile.outputs.solutionFilePath }}
-          solution-path: sriram_dm_demo.sln
+          solution-path: ./sriram_dm_demo.sln
           # Id of the uploaded artifact
           # artifact-id: ${{ needs.CI.outputs.artifact-id }}
           artifact-name: ${{ github.repository }} ${{ github.ref_name }}
